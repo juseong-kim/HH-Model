@@ -68,7 +68,7 @@ grid on
 
 % plot IK and INa
 figure(3)
-plot(t,INa,t,IK,t,Vm)
+plot(t,INa,t,IK)
 legend('Na','K')
 title('Sodium and potassium ionic currents for Istim=30\muA/cm^2, dur=0.5ms')
 xlabel('Time (ms)'), ylabel('Current (\muA/cm^2)')
